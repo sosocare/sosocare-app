@@ -44,10 +44,11 @@
     "web": {
       "favicon": "./assets/appIcon.png"
     },
-    "extra": {  
+    "extra": {
       "eas": {
         "projectId": "27cb2b21-1774-48b6-853c-f8b145aaeb26"
       }
-    }
+    },
+    "owner": "soso_care"
   }
 }
