@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Sosocare",
+    "slug": "sosocare-app",
+    "version": "1.2.4",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#52A56E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you use for your profile."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.app.sosocare",
+      "buildNumber": "6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.app.sosocare",
+      "versionCode": 7
+    },
+    "web": {
+      "favicon": "./assets/appIcon.png"
+    },
+    "extra": {  
+      "eas": {
+        "projectId": "27cb2b21-1774-48b6-853c-f8b145aaeb26"
+      }
+    }
+  }
+}
