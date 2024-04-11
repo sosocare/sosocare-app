@@ -1,5 +1,4 @@
 import React from "react";
-import 'expo-dev-menu';
 import { StatusBar } from "expo-status-bar";
 import { AuthProvider } from "./src/contexts/AuthContext";
 import AppNav from "./src/navigation";
