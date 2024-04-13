@@ -1,6 +1,6 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { AuthProvider } from "./src/contexts/AuthContext";
+  import { AuthProvider } from "./src/contexts/AuthContext";
 import AppNav from "./src/navigation";
 import { Provider } from 'react-redux';
 import { store } from "./src/redux";
