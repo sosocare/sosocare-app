@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Sosocare",
-    "slug": "sosocare-app",
-    "version": "1.2.4",
+    "slug": "soso-care-app",
+    "version": "1.0",
     "orientation": "portrait",
     "icon": "./assets/appIcon.png",
     "userInterfaceStyle": "dark",
@@ -38,17 +38,17 @@
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ],
-      "package": "com.app.sosocare",
-      "versionCode": 7
+      "package": "com.sosocare.android",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/appIcon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "27cb2b21-1774-48b6-853c-f8b145aaeb26"
+        "projectId": "40ef3511-f8a2-4c08-ab0f-e03050f3c836"
       }
     },
-    "owner": "soso_care"
+    "owner": "sosocaretech"
   }
 }
